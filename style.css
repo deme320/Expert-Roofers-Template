@@ -417,4 +417,175 @@ body{
   cursor: pointer;
   width:50px;
   top: 120px;
+
+}
+
+html{
+  scrool-behaivor: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 15px;
+    min-height: 200px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .a {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .a a {
+    font-size: 14px;
+  }
+
+  .cards {
+    padding: 40px 20px;
+  }
+
+  .cards h1 {
+    font-size: 1.8rem;
+  }
+
+  .cards h3 {
+    font-size: 1.1rem;
+    right: 0;
+    top: 80px;
+  }
+
+  .cards card {
+    width: 100%;
+    margin: 0 0 30px 0;
+    display: block;
+  }
+
+  .cards card img {
+    height: 400px;
+  }
+
+  .cards2 {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .cards2 > div {
+    flex: 1 1 100%;
+  }
+
+  .cards2 h3 {
+    font-size: 1.5rem;
+  }
+
+  .sponsors {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .logos img {
+    max-width: 150px;
+  }
+
+  .wcu {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .sug1, .sug2, .sug3, .sug4 {
+    max-width: 100%;
+  }
+
+  .sug1 h1 {
+    font-size: 2rem;
+  }
+
+  .wcu .top {
+    font-size: 1.2rem;
+  }
+
+  .wcu .bottom {
+    font-size: 0.95rem;
+  }
+
+  .register {
+    padding: 40px 20px;
+  }
+
+  .register h1 {
+    font-size: 2rem;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .footer h3 {
+    top: 0;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .OH .top,
+  .OH .bottom,
+  .OH2 .top,
+  .OH2 .bottom {
+    position: static;
+    right: 0;
+    top: 0;
+    margin-bottom: 15px;
+  }
+
+  .OH3 a {
+    position: static;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .OH3 .as {
+    position: static;
+    bottom: 0;
+  }
+
+  .OH4 .top {
+    position: static;
+    top: 0;
+    margin-top: 30px;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+  }
 }
