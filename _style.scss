@@ -362,20 +362,20 @@ body{
   display: flex;
   margin: 0;
   position: relative;
-  top: 140px;
+  top: 200px;
 }
 
 .OH .top{
   margin: 0;
   position: relative;
-  right: 615px;
+  right: 590px;
   top: 95px;
 }
 
 .OH .bottom{
   margin: 0;
   position: relative;
-  right: 615px;
+  right: 590px;
   top: 95px;
 }
 
@@ -389,6 +389,7 @@ body{
   margin: 0;
   position: relative;
   top: 45px;
+  left: 120px;
 }
 
 .OH3 a{
@@ -409,6 +410,18 @@ body{
   margin: 0;
   position: relative;
   top: 330px;
+}
+
+
+.footer img{
+  cursor: pointer;
+  width:50px;
+  top: 120px;
+
+}
+
+html{
+  scrool-behaivor: smooth;
 }
 
 @media screen and (max-width: 768px) {
